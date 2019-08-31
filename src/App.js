@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './css/layout.css';
+import './css/main.css';
+import ButtonTrial from './components/ButtonTrial/ButtonTrial'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App grid">
+     <div className="hero-text">
+        <h1> Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. </p>
+          <ButtonTrial/>
+     </div>
     </div>
   );
 }
