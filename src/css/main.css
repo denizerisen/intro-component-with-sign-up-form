@@ -1,0 +1,118 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: no-repeat center center fixed;
+  background-color: #ff7a7a;
+  background-image: url(../images/bg-intro-desktop.png); }
+
+.grid {
+  margin: 0 1.5em; }
+
+.hero-text {
+  margin-top: 6em;
+  color: white;
+  text-align: center; }
+  .hero-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 28px; }
+  .hero-text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 0 0.5rem;
+    line-height: 1.7em;
+    margin-top: 1.5em; }
+
+.trial-cta {
+  background: #6055a5;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 0px 0px rgba(62, 60, 73, 0.25);
+  margin-top: 3.5em;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  line-height: 1.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400; }
+  .trial-cta span {
+    font-weight: 600; }
+
+.trial-submit-button {
+  text-transform: uppercase;
+  background: #38cc8c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 0px -5px 0px 0px rgba(62, 60, 73, 0.25);
+  padding: 1rem 2rem;
+  width: 100%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500; }
+
+.form-control {
+  height: 4em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px; }
+
+input[type="text"], textarea {
+  outline: none;
+  box-shadow: none !important; }
+
+.form-control:focus {
+  border: 1px solid #6055a5 !important; }
+
+.sign-up-form {
+  background: white;
+  border-radius: 10px;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  padding: 1.5em;
+  box-shadow: 0px 8px 0px 0px rgba(62, 60, 73, 0.25); }
+
+.terms-and-service-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #b9b6d3;
+  text-align: center;
+  padding: 0 1rem;
+  margin-top: 1em;
+  margin-bottom: 0;
+  line-height: 2em; }
+  .terms-and-service-link span {
+    font-weight: 600;
+    color: #ff7a7a; }
+
+@media (min-width: 768px) {
+  .hero-text {
+    text-align: left;
+    align-self: center;
+    justify-self: right;
+    margin-top: 0;
+    max-width: 500px; }
+    .hero-text h1 {
+      font-size: 50px; }
+    .hero-text p {
+      padding: 0; }
+  .hero-text p {
+    padding: 0; }
+  .grid {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 50%); }
+  .form-with-cta {
+    justify-self: left;
+    align-self: center;
+    min-width: 510px; }
+  .trial-cta {
+    margin-top: 0; } }
