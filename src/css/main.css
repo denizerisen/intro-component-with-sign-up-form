@@ -30,6 +30,32 @@ body {
   color: white;
   text-align: center;
   cursor: pointer;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400; }
   .trial-button span {
     font-weight: 600; }
+
+.sign-up-form {
+  background: white;
+  border-radius: 10px;
+  margin-top: 2em;
+  padding: 1.5em; }
+
+.free-trial-submit {
+  text-transform: uppercase;
+  background: #38cc8c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 5px 0px 0px rgba(62, 60, 73, 0.2);
+  padding: 1rem 2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500; }
+
+.form-control {
+  height: 3em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px; }

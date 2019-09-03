@@ -1,6 +1,9 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import './css/main.css';
+import 'react-bootstrap';
 import ButtonTrial from './components/ButtonTrial/ButtonTrial'
+import SignUpForm from './components/Form/SignUpForm'
 
 function App() {
   return (
@@ -10,6 +13,7 @@ function App() {
         <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
           but understanding how developers think is invaluable. </p>
           <ButtonTrial/>
+          <SignUpForm/>
      </div>
     </div>
   );
