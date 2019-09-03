@@ -1,20 +1,29 @@
+//override bootstrap blue glow in inputs
+input[type="text"], textarea
+  outline: none
+  box-shadow: none !important
+
+.form-control:focus
+    border: 1px solid $accent-blue !important
+
+    
 .sign-up-form
     background: white
     border-radius: 10px
     margin-top: 2em
+    margin-bottom: 4em
     padding: 1.5em
+    box-shadow: 0px 8px 0px 0px $dark-blue
     
-.free-trial-submit
-    text-transform: uppercase
-    background: $primary-green
-    color: white
-    border: none
-    border-radius: 10px
-    box-shadow: 0px 5px 0px 0px $dark-blue
-    padding: 1rem 2rem
+.terms-and-service-link
+    +font($font-regular)
+    font-size: 11px
+    color: $grayish-blue
     text-align: center
-    +font($font-medium)
-.form-control
-    height: 3em
-    +font($font-medium)
-    font-size: 16px
+    padding: 0 1rem
+    margin-top: 1em
+    margin-bottom: 0
+    line-height: 2em
+    span
+        font-weight: $font-semibold
+        color: $primary-red
