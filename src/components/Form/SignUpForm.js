@@ -15,18 +15,17 @@ export default class SignUpForm extends Component {
                     }}
                     validationSchema={yup.object().shape({
                         name: yup.string()
-                            .required('Your first name is required.'),
+                            .required('First name cannot be empty'),
                         surname: yup.string()
-                            .required('Your last name is required.'),
+                            .required('Last name cannot be empty'),
                         email: yup.string()
-                            .required('Your last name is required.')
-                            .email('Please enter your email addres in format: yourname@example.com'),
+                            .required('Email address cannot be empty')
+                            .email('Looks like this is not an email'),
                         password: yup.string()
-                            .required()
+                            .required('Password cannot be empty')
                     })}
                     onSubmit={fields =>{
                         //send API request with fields as parameter.
-                        console.log(fields);
                     }}
                     render={({errors, touched})=>(
                         <Form>
@@ -50,7 +49,7 @@ export default class SignUpForm extends Component {
                         </Form>
                     )}
                 />
-                <p className="terms-and-service-link">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+                <p className="terms-and-service-link">By clicking the button, you are agreeing to our <a href="/linktodocument">Terms and Services</a></p>
             </div>
         )
     }

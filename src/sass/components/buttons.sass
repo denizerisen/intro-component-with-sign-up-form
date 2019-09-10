@@ -1,4 +1,4 @@
-.trial-cta
+.trial-short-info
     background: $accent-blue
     border: none
     border-radius: 10px
@@ -8,7 +8,6 @@
     text-decoration: none
     color: white
     text-align: center
-    cursor: pointer
     line-height: 1.5em
     +font($font-regular)
     span
@@ -26,6 +25,8 @@
     width: 100%
     text-align: center
     +font($font-medium)
+    &:hover
+        background: darken( $primary-green, 5% )
 .form-control
     height: 4em
     +font($font-medium)

@@ -5,6 +5,9 @@ input[type="text"], textarea
 
 .form-control:focus
     border: 1px solid $accent-blue !important
+.form-control
+    &.is-invalid
+        background-image: url(../images/icon-error.svg)
 
     
 .sign-up-form
@@ -24,6 +27,10 @@ input[type="text"], textarea
     margin-top: 1em
     margin-bottom: 0
     line-height: 2em
-    span
+    a
         font-weight: $font-semibold
         color: $primary-red
+=sign-up-form--md()
+    .sign-up-form
+        margin-bottom: 0px
+

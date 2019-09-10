@@ -1,8 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './css/main.css';
-import 'react-bootstrap';
-import ButtonTrial from './components/ButtonTrial/ButtonTrial'
+import TrialInfo from './components/TrialInfo/TrialInfo'
 import SignUpForm from './components/Form/SignUpForm'
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
           but understanding how developers think is invaluable. </p>
       </div>
       <div className="form-with-cta">
-        <ButtonTrial/>
+        <TrialInfo/>
         <SignUpForm/>
       </div>
     </div>
