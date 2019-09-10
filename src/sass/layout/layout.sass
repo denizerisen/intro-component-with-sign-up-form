@@ -3,7 +3,7 @@
 body
   height: 100%
   width: 100%
-  background: no-repeat center center fixed
+  background: repeat center center fixed
   background-color: $primary-red
   background-image: url(../images/bg-intro-desktop.png)
 .grid
@@ -13,15 +13,14 @@ body
     position: absolute
     margin: auto
     top: 0
-    right: 0
     bottom: 0
-    left: 0
+    right: 10%
+    left: 10%
     display: grid
     grid-template-columns: repeat(2,50%)
   .form-with-cta
-    justify-self: left
     align-self: center
-    min-width: 510px
+    margin-left: 1em
   .trial-cta
     margin-top: 0
 
@@ -42,7 +41,6 @@ body
   .hero-text
     text-align: left
     align-self: center
-    justify-self: right
     margin-top: 0
     max-width: 500px
     h1
