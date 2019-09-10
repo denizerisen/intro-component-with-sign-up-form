@@ -69,7 +69,7 @@ input[type="text"], textarea {
 
 .form-control.is-invalid {
   background-image: url(../images/icon-error.svg);
-  background-position: center right calc(.375em + .1875rem); }
+  background-position: right calc(.375em + .1875rem) center; }
 
 .sign-up-form {
   background: white;
