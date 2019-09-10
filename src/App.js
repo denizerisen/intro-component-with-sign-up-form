@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './css/main.css';
-import 'react-bootstrap';
 import TrialInfo from './components/TrialInfo/TrialInfo'
 import SignUpForm from './components/Form/SignUpForm'
 
