@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# You can quickly view it from => https://project-a.netlify.com
+# You can quickly view it from => https://signupform-d.netlify.com
 The chhallenge from Frontend Mentor => (https://beta.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)
 I've decided to take on this challenge to practice Gulp and Sass.
  
